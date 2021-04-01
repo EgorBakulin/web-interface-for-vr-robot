@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <link rel="stylesheet" type="text/css" href="vendor/twbs/bootstrap/dist/css/bootstrap.min.css">
-  <script type="text/javascript" src="my_player.js"></script>
+  <!-- <script type="text/javascript" src="my_player.js"></script> --!>
   <meta charset="utf-8">
   <title>Robot interface</title>
 </head>
@@ -11,7 +11,7 @@
     <div id="myVideo" class="card-img-top" style="height: 480px; background-color: black;"> </div>
       <div class="card-body" style="display: inline-flex;">
 	<div>
-          <button onclick="connect()" value="PLAY" class="btn btn-success">PLAY</button>
+          <!-- <button onclick="connect()" value="PLAY" class="btn btn-success">PLAY</button> --!>
         </div>
         <table>
           <tr>
@@ -39,7 +39,7 @@
           <tr>
            <td></td>
            <td>
-	     <button id="buttonDown" class="btn btn-primary">
+	     <button id="buttonBackward" class="btn btn-primary">
 	       <img src="imgs/arrow-down.svg"></i>
              </button>
            </td>
@@ -48,7 +48,9 @@
         </table>
       </div>
   </div>
-  <script src="./vendor/components/jquery/jquery.min.js"></script>
+
+  <script src="vendor/components/jquery/jquery.min.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
 </html>
